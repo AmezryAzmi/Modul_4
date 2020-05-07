@@ -16,6 +16,11 @@ public class TEST {
            model.BMW();
            System.out.print("Silahkan Pilih : ");
            int pilih = input.nextInt();
+           System.out.println("Silahkan pilih warna : ");
+           System.out.println("[1]Silver    [2]Hitam    [3]Merah");
+           System.out.print("Pilihan : ");
+           int warna = input.nextInt();
+           bayar.warna(warna);
            Transaksi.BMW(pilih);
        break;
        }
@@ -23,6 +28,11 @@ public class TEST {
            model.Audi();
            System.out.print("Silahkan Pilih : ");
            int pilih = input.nextInt();
+           System.out.println("Silahkan pilih warna : ");
+           System.out.println("[1]Silver    [2]Hitam    [3]Merah");
+           System.out.print("Pilihan : ");
+           int warna = input.nextInt();
+           bayar.warna(warna);
            Transaksi.Audi(pilih);
        break;
        }
@@ -30,6 +40,11 @@ public class TEST {
            model.Honda();
            System.out.print("Silahkan Pilih : ");
            int pilih = input.nextInt();
+           System.out.println("Silahkan pilih warna : ");
+           System.out.println("[1]Silver    [2]Hitam    [3]Merah");
+           System.out.print("Pilihan : ");
+           int warna = input.nextInt();
+           bayar.warna(warna);
            Transaksi.Honda(pilih);
        break;
        }
@@ -37,6 +52,11 @@ public class TEST {
            model.Porsche();
            System.out.print("Silahkan Pilih : ");
            int pilih = input.nextInt();
+           System.out.println("Silahkan pilih warna : ");
+           System.out.println("[1]Silver    [2]Hitam    [3]Merah");
+           System.out.print("Pilihan : ");
+           int warna = input.nextInt();
+           bayar.warna(warna);
            Transaksi.Porsche(pilih);
        break;
        }

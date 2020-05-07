@@ -31,4 +31,27 @@ public class bayar {
         mobil("Honda", "civic type R (3)", 6000);
         mobil("Honda", "jazz (4)", 4000);
 }
-}
+    public static void warna(Integer warna){         
+           if (warna == 1){
+                   System.out.println("Anda memilih warna silver");
+                   System.out.println("Silahkan lanjutkan ke pembayaran"); 
+                   
+               }
+           else if (warna == 2){
+                   System.out.println("Anda memilih warna hitam");
+                   System.out.println("Silahkan lanjutkan ke pembayaran"); 
+                   
+               }
+           else if (warna == 3){
+                   System.out.println("Anda memilih warna merah");
+                   System.out.println("Silahkan lanjutkan ke pembayaran");
+               }
+           else{
+             System.out.println("Maaf silahkan pilih dengan angka yang sesuai");  
+           }
+       }
+    }
+
+               
+
+   
