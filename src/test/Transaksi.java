@@ -13,7 +13,7 @@ public class Transaksi {
                     System.out.print("Silahkan Masukkan Uang = ");
                     int uang = input.nextInt();
                     int harga = 7000;
-                    if (uang > harga){
+                    if (uang >= harga){
                         int kembalian = uang - harga;
                         System.out.println("Selamat Anda telah membeli mobil ini!!");
                         System.out.println("Kembalian Anda adalah " +kembalian +" dollar");
@@ -36,7 +36,7 @@ public class Transaksi {
                     System.out.print("Silahkan Masukkan Uang = ");
                     int uang = input.nextInt();
                     int harga = 7300;
-                    if (uang > harga){
+                    if (uang >= harga){
                         int kembalian = uang - harga;
                         System.out.println("Selamat Anda telah membeli mobil ini!!");
                         System.out.println("Kembalian Anda adalah " +kembalian +" dollar");
@@ -83,7 +83,7 @@ public class Transaksi {
                     System.out.print("Silahkan Masukkan Uang = ");
                     int uang = input.nextInt();
                     int harga = 8700;
-                    if (uang > harga){
+                    if (uang >= harga){
                         int kembalian = uang - harga;
                         System.out.println("Selamat Anda telah membeli mobil ini!!");
                         System.out.println("Kembalian Anda adalah " +kembalian +" dollar");
@@ -213,7 +213,7 @@ public class Transaksi {
                     System.out.print("Silahkan Masukkan Uang = ");
                     int uang = input.nextInt();
                     int harga = 6500;
-                    if (uang > harga){
+                    if (uang >= harga){
                         int kembalian = uang - harga;
                         System.out.println("Selamat Anda telah membeli mobil ini!!");
                         System.out.println("Kembalian Anda adalah " +kembalian +" dollar");
@@ -381,7 +381,7 @@ public class Transaksi {
                     System.out.print("Silahkan Masukkan Uang = ");
                     int uang = input.nextInt();
                     int harga = 9000;
-                    if (uang > harga){
+                    if (uang >= harga){
                         int kembalian = uang - harga;
                         System.out.println("Selamat Anda telah membeli mobil ini!!");
                         System.out.println("Kembalian Anda adalah " +kembalian +" dollar");
